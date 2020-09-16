@@ -6,5 +6,5 @@ class Customer:
 
 # make a method for the customer to buy a drink from the pub
 
-    def cust_buys_drink(self):
-        pass
+    # def cust_buys_drink(self):
+    #     pass
