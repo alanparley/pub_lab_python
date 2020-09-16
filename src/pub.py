@@ -1,7 +1,7 @@
 class Pub:
-    def __init__(self, name, cash):
+    def __init__(self, name, till):
         self.name = name
-        self.cash = cash
+        self.till = till
         self.drinks = []
 
     def count_drinks(self):
@@ -12,6 +12,14 @@ class Pub:
 
     def remove_drink(self, drink):
         self.drinks.remove(drink)
+
+    def add_money(self, amount_to_add):
+        self.till += amount_to_add
+
+    def sells_drink_to_customer(customer, input_drink)
+        
+
+
 
 
     # def sell_drink(self):
