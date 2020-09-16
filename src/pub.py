@@ -2,13 +2,13 @@ class Pub:
     def __init__(self, name, cash):
         self.name = name
         self.cash = cash
-        self.drink = []
+        self.drinks = []
 
     def count_drinks(self):
-        return len(self.drink)
+        return len(self.drinks)
 
-    def add_drinks(self, drink):
-        self.drink.append(drink)
+    def add_drinks(self, new_drink):
+        self.drinks.append(new_drink)
 
-    def sell_drink(self, drink):
-        self.drink.remove(drink)
+    # def sell_drink(self):
+    #     self.drink.remove(drink)
