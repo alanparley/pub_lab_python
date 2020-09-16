@@ -10,5 +10,9 @@ class Pub:
     def add_drinks(self, new_drink):
         self.drinks.append(new_drink)
 
+    def remove_drink(self, drink):
+        self.drinks.remove(drink)
+
+
     # def sell_drink(self):
     #     self.drink.remove(drink)

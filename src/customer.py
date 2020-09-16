@@ -6,5 +6,8 @@ class Customer:
 
 # make a method for the customer to buy a drink from the pub
 
-    # def cust_buys_drink(self):
-    #     pass
+    def count_drinks(self):
+        return len(self.drinks)
+
+    def buy_drinks(self, new_drink):
+        self.drinks.append(new_drink)
