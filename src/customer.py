@@ -11,3 +11,6 @@ class Customer:
 
     def buy_drinks(self, new_drink):
         self.drinks.append(new_drink)
+
+    def spend_cash(self, new_drink):
+        self.cash -= new_drink.price

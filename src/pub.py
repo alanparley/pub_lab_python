@@ -1,3 +1,7 @@
+from src.customer import Customer
+from src.drink import Drink
+
+
 class Pub:
     def __init__(self, name, till):
         self.name = name
@@ -16,11 +20,11 @@ class Pub:
     def add_money(self, amount_to_add):
         self.till += amount_to_add
 
-    def sells_drink_to_customer(customer, input_drink)
-        
+    def sells_drink_to_customer(self, customer, input_drink):
+        customer.buy_drinks(input_drink)
+        customer.spend_cash(input_drink)
+        self.remove_drink(input_drink)
+        self.add_money(input_drink.price)
 
-
-
-
-    # def sell_drink(self):
-    #     self.drink.remove(drink)
+        # def sell_drink(self):
+        #     self.drink.remove(drink)
